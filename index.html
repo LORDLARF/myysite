@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Pixar Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(180deg, #cfe9ff, #fff4b5);
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px 60px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      color: #ff9f43;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1em;
+      opacity: 0.85;
+      line-height: 1.5;
+    }
+
+    /* ☀️ простое солнышко */
+    .sun {
+      width: 70px;
+      height: 70px;
+      margin: 0 auto 20px;
+      border-radius: 50%;
+      background: #ffe066;
+      box-shadow: 0 0 25px rgba(255, 220, 120, 0.6);
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .card {
+      max-width: 500px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      opacity: 0.6;
+      font-size: 0.9em;
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="sun"></div>
+  <h1>Привет, я делаю сайты</h1>
+  
+</header>
+
+<section>
+  <div class="card">
+    <h2>Обо мне</h2>
+    <p>
+      Делаю сайты и учусь делать их не только рабочими, но и красивыми.
+      
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>Мои работы</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Лендинг для кафе</h3>
+      <p>Учебный проект с простым и уютным стилем.</p>
+    </div>
+
+    <div class="card">
+      <h3>Мини-портфолио</h3>
+      <p>Один из первых сайтов, делал адаптив.</p>
+    </div>
+
+    <div class="card">
+      <h3>Учебный сайт</h3>
+      <p>Пробовал анимации и разные стили.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 моё портфолио</p>
+</footer>
+
+</body>
+</html>
